@@ -2,9 +2,9 @@
   <ion-split-pane contentId="main-content">
     <ion-menu contentId="main-content" type="overlay">
       <ion-content>
-        <ion-list id="inbox-list">
-          <ion-list-header>SHOP</ion-list-header>
-          <ion-note>Inventory App</ion-note>
+        <ion-list id="inbox-list" color="warning">
+          <ion-list-header>FUNDI</ion-list-header>
+          <ion-note>Site Management</ion-note>
 
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
             <ion-item routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerLinkActive="selected">
